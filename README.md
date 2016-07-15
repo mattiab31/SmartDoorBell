@@ -62,21 +62,21 @@ Everything runs on a telegram bot, where the owner of the house can communicate 
 This is the list of the exact items that we used. Of course you can use what do you want:
 
 
-- A raspberry pi 2  --> http://amzn.to/2a32PPd
-- A MicroUsb charger for Raspberry pi (2A minimum) --> http://amzn.to/29Bc8Bw
-- A microsd card (16 gb minimum) --> http://amzn.to/2a31SGq
-- A camera module (usb camera or RPI Cam) --> http://amzn.to/29zLJaU
+- A raspberry pi 2  --> http://amzn.to/2a3i4aZ
+- A MicroUsb charger for Raspberry pi (2A minimum) --> http://amzn.to/2a3iy0I
+- A microsd card (16 gb minimum) --> http://amzn.to/2a3iC0d
+- A camera module (usb camera or RPI Cam) --> http://amzn.to/2a3iuxK
 - Speakers 
-- USB Wifi adapter --> http://amzn.to/29HG0kG
-- Bluetooth BLE Adapter (this is just for beacon use) --> http://amzn.to/29zLTza
-- A multichannel relay --> http://amzn.to/29HGdnO
+- USB Wifi adapter --> http://amzn.to/2a3in5s
+- Bluetooth BLE Adapter (this is just for beacon use) --> http://amzn.to/2a3iqy2
+- A multichannel relay --> http://amzn.to/2a3iygX
 - A door lock 
 - A Lamp
-- A USB keypad --> http://amzn.to/29HGgjv
-- Breadboard --> http://amzn.to/29IwBnB
-- Jumpers and wires plus a bunch of buttons -->http://amzn.to/29IwCIb
-- An external audio board for handling the microphone  --> http://amzn.to/29IwLvj
-- A beacon (ibeacon or estimote), used to perform the OWNER mode --> 
+- A USB keypad --> http://amzn.to/2a3iGx9
+- Breadboard --> http://amzn.to/2a3iNsB
+- Jumpers and wires plus a bunch of buttons -->http://amzn.to/2a3iIoz
+- An external audio board for handling the microphone  -->http://amzn.to/2a3j9PP
+- A beacon (ibeacon or estimote), used to perform the OWNER mode --> http://amzn.to/2a3iZrW
 
 
 
