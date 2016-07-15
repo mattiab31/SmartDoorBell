@@ -26,28 +26,28 @@ SmartDoorbell allows you to
 This should be the owner of the house, he can simply enter using a beacon, maybe in his pocket. Using beacon he can simply stay near the door, (50 cm approx) and the door will automatically open, you do not need an app for this!
 
 **## Friends**
-The Smartdoorbell has a numeric keypad, you can simply enter the secret code and then you are in! Is perfect if you are having a party or if you are chilling around with your friend but you're too busy to buy beers instead of opening the door! After the 3 failed login attempts, the keypad control system is shutted down and the owner is alerted 
+The Smartdoorbell is provided of a numeric keypad, you can simply enter the secret code and you are in! Ideal if you have a party or if you receive lots of friend in your house but you're too busy to buy beers instead of opening the door! After the 3 failed login attempts, the keypad control system is shutted down and the owner is alerted 
 
 **## Strangers**
-This should be used for any other possible situation. Strangers or people who are not trustworthy can simply press the button, and as a consequence  a photo is automatically taken and sent to the owner via telegram. The owner can play from remote, an audio to inform the guest about something, or he can take a video (30sec) to go deeper. 
-If the stranger presses the REC button, he can also record an audio message who will be delivered to the owner. 
+This should be used for any other kind of situation. Stranger or people who is not trusted can simply press the button, automatically a photo is taken and sent to the owner via telegram. The oner can play from remote, an audio to inform the guest about something, or take a video (30sec) to go deeper. 
+If the stranger press the REC button, he can also record an audio message who will be delivered to the owner. 
 
 # Functionalities
 Everything runs on a telegram bot, where the owner of the house can communicate just simply typing some special commands as:
 
 - open --> This will simply open the door from remote
-- light --> This will just switch on the light. Usefull for garden door or garage door.
+- light --> This will just switch on the lihgt. Usefull for garden door or garage door.
 - openL--> Open the door + light
 - photo --> Simply take a photo using the camera installed on the doorbell. Automatically sent to     the owner via telegram
 - video --> Simply record a video of 30 sec from the camera. Automatically sent to     the owner via telegram
 - sound --> Play a prerecorded  from the doorbell speakers
-- reboot --> Simply reboot the system 
+- reboot --> To reboot the rasberry pi and so the entire system
 
 # Architecture
 
-## Lots of single action scripts, runs on a Raspberry Pi 2 with raspbian installed. 
+## Lots of single action scripts, runs on   a Raspberry Pi 2 with raspbian installed. 
 
-**Everything is managed by the telegram bot, which starts at the startup of the system, and there is a python script for all the actions which the system can perform. (codes on the top )**
+**Everything is managed by the telegram bot, which starts at the startup of the system, and there is a python script for all the actions which system can perform. (codes on the top )**
 
 ![schermata 2016-07-15 alle 10 48 09](https://cloud.githubusercontent.com/assets/17788819/16868765/c274674c-4a79-11e6-8fdb-e99e0c2c2837.png)
 
@@ -59,8 +59,11 @@ Everything runs on a telegram bot, where the owner of the house can communicate 
 
 #  What you need
 
+This is the list of the exact items that we used. Of course you can use what do you want:
+
+
 - A raspberry pi 2  --> http://amzn.to/2a32PPd
-- A MicroUsb charger for Raspberry pi (2A) --> http://amzn.to/29Bc8Bw
+- A MicroUsb charger for Raspberry pi (2A minimum) --> http://amzn.to/29Bc8Bw
 - A microsd card (16 gb minimum) --> http://amzn.to/2a31SGq
 - A camera module (usb camera or RPI Cam) --> http://amzn.to/29zLJaU
 - Speakers 
@@ -73,7 +76,7 @@ Everything runs on a telegram bot, where the owner of the house can communicate 
 - Breadboard --> http://amzn.to/29IwBnB
 - Jumpers and wires plus a bunch of buttons -->http://amzn.to/29IwCIb
 - An external audio board for handling the microphone  --> http://amzn.to/29IwLvj
-- A beacon to perform the OWNER mode
+- A beacon (ibeacon or estimote), used to perform the OWNER mode --> 
 
 
 
@@ -91,9 +94,9 @@ Everything runs on a telegram bot, where the owner of the house can communicate 
 - Read the code to get familiarity with buttons, GPIO commands, and relay
 
 
-# What's missing
+# WHAT'S MISSING 
 
-Everything works fine. There are just some bugfixing problems to improve and some new little features that should be developed.
+Everything works fine. There just some some bugfixiing to perform and some new little features that should be developed.
 
 ## In progress tasks:
 
@@ -121,6 +124,8 @@ You can find us and of course, feel free to contact for any kind of informations
 - Mattia Brunetti : https://it.linkedin.com/in/mattiabrunetti
 
 Slideshare page: http://www.slideshare.net/MarcoCasini1/presentation-raspberry-pi-60819078
+
+Some photos of the project : http://imgur.com/a/iopHl
 
 The project was developed and has been presented within the course of "Pervasive Systems", held by Prof. Ioannis Chatzigiannakis within the Master of Science in Computer Science (MSE-CS), at University of Rome "La Sapienza".
 
