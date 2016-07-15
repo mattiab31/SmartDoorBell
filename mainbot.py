@@ -12,7 +12,8 @@ def handle(msg):
     command = msg['text']
 
     print 'Got command: %s' % command
-
+						
+//list of commands used to perform action. Each command corresponds to an action or to a chain of action
     if command == '/roll':
         bot.sendMessage(chat_id, random.randint(1,6))
     elif command == '/time':
@@ -46,7 +47,7 @@ def handle(msg):
     elif command == '/shutdown':
         os.system("sudo shutdown -h now")
         bot.sendMessage(chat_id, text="DoorBell is down!")
-bot = telepot.Bot('153736884:AAGY5qfwDcQE21HCYWY1JftScSYWAv7Lqo8')
+bot = telepot.Bot('Your api key telegram bot')
 bot.message_loop(handle)
 print 'I am listening ...'
 bot.sendMessage(-120421181, text="Welcome to DoorBell")
