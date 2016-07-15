@@ -26,10 +26,10 @@ SmartDoorbell allows you to
 This should be the owner of the house, he can simply enter using a beacon, maybe in his pocket. Using beacon he can simply stay near the door, (50 cm approx) and the door will automatically open, you do not need an app for this!
 
 **## Friends**
-The Smartdoorbell is provided of a numeric keypad, you can simply enter the secret code and you are in! Ideal if you have a party or if you receive lots of friend in your house but you're too busy to buy beers instead of opening the door! After the 3 failed login attempts, the keypad control system is shutted down and the owner is alerted 
+The Smartdoorbell has a numeric keypad where you can simply enter the secret code and then you are in! Usefull  if you are chilling with friends and  you're too busy to buy beers instead of opening the door! After the 3 failed login attempts, the keypad control system is shutted down and the owner is alerted 
 
 **## Strangers**
-This should be used for any other kind of situation. Stranger or people who is not trusted can simply press the button, automatically a photo is taken and sent to the owner via telegram. The oner can play from remote, an audio to inform the guest about something, or take a video (30sec) to go deeper. 
+This should be used for any other possible situations. Stranger or people who is not trustworthy can simply press the button,  a photo is automatically taken and sent to the owner via telegram. The owner can play from remote, an audio to inform the guest about something, or  can take a video (30sec) to go deeper. 
 If the stranger press the REC button, he can also record an audio message who will be delivered to the owner. 
 
 # Functionalities
@@ -39,7 +39,7 @@ Everything runs on a telegram bot, where the owner of the house can communicate 
 - light --> This will just switch on the lihgt. Usefull for garden door or garage door.
 - openL--> Open the door + light
 - photo --> Simply take a photo using the camera installed on the doorbell. Automatically sent to     the owner via telegram
-- video --> Simply record a video of 30 sec from the camera. Automatically sent to     the owner via telegram
+- video --> Simply record a video of 30 sec from the camera. Automatically sent to the owner via telegram
 - sound --> Play a prerecorded  from the doorbell speakers
 - reboot --> To reboot the rasberry pi and so the entire system
 
@@ -47,7 +47,7 @@ Everything runs on a telegram bot, where the owner of the house can communicate 
 
 ## Lots of single action scripts, runs on   a Raspberry Pi 2 with raspbian installed. 
 
-**Everything is managed by the telegram bot, which starts at the startup of the system, and there is a python script for all the actions which system can perform. (codes on the top )**
+**Everything is managed by the telegram bot, which starts at the startup of the system, and there is a python script for all the actions which the system can perform. (codes on the top )**
 
 ![schermata 2016-07-15 alle 10 48 09](https://cloud.githubusercontent.com/assets/17788819/16868765/c274674c-4a79-11e6-8fdb-e99e0c2c2837.png)
 
@@ -96,7 +96,7 @@ This is the list of the exact items that we used. Of course you can use what do 
 
 # WHAT'S MISSING 
 
-Everything works fine. There just some some bugfixiing to perform and some new little features that should be developed.
+Everything works fine. There just some some bugfixiing problems to improve and some new little features that should be developed.
 
 ## In progress tasks:
 
@@ -123,7 +123,7 @@ You can find us and of course, feel free to contact for any kind of informations
 - Marco Casini : https://it.linkedin.com/in/marcocasini2
 - Mattia Brunetti : https://it.linkedin.com/in/mattiabrunetti
 
-Slideshare page: http://www.slideshare.net/MarcoCasini1/presentation-raspberry-pi-60819078
+Slideshare page: http://www.slideshare.net/MattiaBrunetti/smart-doorbell
 
 Some photos of the project : http://imgur.com/a/iopHl
 
