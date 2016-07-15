@@ -2,7 +2,7 @@ import RPi.GPIO as GPIO
 import time
 import telepot
 
-bot = telepot.Bot('153736884:AAGY5qfwDcQE21HCYWY1JftScSYWAv7Lqo8')
+bot = telepot.Bot('Your api telegram bot')
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
 GPIO.setup(21,GPIO.OUT)
