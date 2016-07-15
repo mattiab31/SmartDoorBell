@@ -105,11 +105,11 @@ Everything works fine. There just some some bugfixiing to perform and some new l
 
 # Description of files:
 
-bottonerec.py --> To record a sound from mic when a button is pressed
-button.py--> The main button, take a picture when is pressed (act as a buzzer)
-code.py-->To unnlock the door with a secure code from keypad 
-mainbot.py-->The Brain of the system. The Telegram Bot. Used  to manage all the actions and interoperate with the owner
-search.py--> To automatically unlock the door when a beacon is catched/detected
+- bottonerec.py --> To record a sound from mic when a button is pressed
+- button.py--> The main button, take a picture when is pressed (act as a buzzer)
+- code.py-->To unnlock the door with a secure code from keypad 
+- mainbot.py-->The Brain of the system. The Telegram Bot. Used  to manage all the actions and interoperate with the owner
+- search.py--> To automatically unlock the door when a beacon is catched/detected
 
 # Info & Contacts
 
