@@ -123,7 +123,10 @@ You can find us and of course, feel free to contact for any kind of informations
 - Marco Casini : https://it.linkedin.com/in/marcocasini2
 - Mattia Brunetti : https://it.linkedin.com/in/mattiabrunetti
 
-Slideshare page: http://www.slideshare.net/MattiaBrunetti/smart-doorbell
+Slideshare page of Project: http://www.slideshare.net/MattiaBrunetti/smart-doorbell
+Slideshare of beacon used (sensoro) :http://www.slideshare.net/MattiaBrunetti/sensoro-beacon-review
+Slideshare of raspberry pi 2 : http://www.slideshare.net/MarcoCasini1/presentation-raspberry-pi-60819078
+
 
 Some photos of the project : http://imgur.com/a/iopHl
 
