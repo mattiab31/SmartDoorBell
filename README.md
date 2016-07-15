@@ -26,10 +26,10 @@ SmartDoorbell allows you to
 This should be the owner of the house, he can simply enter using a beacon, maybe in his pocket. Using beacon he can simply stay near the door, (50 cm approx) and the door will automatically open, you do not need an app for this!
 
 **## Friends**
-The Smartdoorbell is provided of a numeric keypad, you can simply enter the secret code and you are in! Ideal if you have a party or if you receive lots of friend in your house but you're too busy to buy beers instead of opening the door! After the 3 failed login attempts, the keypad control system is shutted down and the owner is alerted 
+The Smartdoorbell has a numeric keypad, you can simply enter the secret code and then you are in! Is perfect if you are having a party or if you are chilling around with your friend but you're too busy to buy beers instead of opening the door! After the 3 failed login attempts, the keypad control system is shutted down and the owner is alerted 
 
 **## Strangers**
-This should be used for any other kind of situation. Stranger or people who is not trusted can simply press the button, automatically a photo is taken and sent to the owner via telegram. The oner can play from remote, an audio to inform the guest about something, or take a video (30sec) to go deeper. 
+This should be used for any other possible situation. Strangers or people who are not trustworthy can simply press the button, and as a consequence  a photo is automatically taken and sent to the owner via telegram. The oner can play from remote, an audio to inform the guest about something, or take a video (30sec) to go deeper. 
 If the stranger press the REC button, he can also record an audio message who will be delivered to the owner. 
 
 # Functionalities
@@ -41,6 +41,7 @@ Everything runs on a telegram bot, where the owner of the house can communicate 
 - photo --> Simply take a photo using the camera installed on the doorbell. Automatically sent to     the owner via telegram
 - video --> Simply record a video of 30 sec from the camera. Automatically sent to     the owner via telegram
 - sound --> Play a prerecorded  from the doorbell speakers
+- reboot --> Simply reboot the system 
 
 # Architecture
 
